@@ -105,6 +105,10 @@ body{
 	cursor: pointer;
 }
 
+#calculadora #teclado #numeros .botao:hover{
+	background-color: #4BA6C2;
+}
+
 #calculadora #teclado #simbolos .botao{
 	position: relative;
 	display: flex;
@@ -120,4 +124,8 @@ body{
 	background-color: #F21B1B;
 	color:white;
 	cursor: pointer;
+}
+
+#calculadora #teclado #simbolos .botao:hover{
+	background-color: #BB1D1D;
 }
